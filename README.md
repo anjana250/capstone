@@ -68,52 +68,19 @@ By combining these methods, you aim to develop robust and accurate models for pr
 What did your research find?
 
 #### Next steps
-Advanced Modeling Techniques
-Ensemble Methods: Explore advanced ensemble techniques such as Gradient Boosting (e.g., XGBoost, LightGBM) and AdaBoost, which often provide superior performance by combining the strengths of multiple models.
 
-Neural Networks: Implement neural networks using frameworks like TensorFlow or PyTorch for potentially better performance, especially if you have a large dataset.
+1. Advanced Modeling Techniques : Ensemble Methods: Explore advanced ensemble techniques such as Gradient Boosting (e.g., XGBoost, LightGBM) and AdaBoost, which often provide superior performance by combining the strengths of multiple models.
 
-Model Stacking: Combine predictions from multiple models (e.g., Logistic Regression, SVM, Random Forest) to create a meta-model that can improve overall predictive performance.
+2. Model Stacking: Combine predictions from multiple models (e.g., Logistic Regression, SVM, Random Forest) to create a meta-model that can improve overall predictive performance.
 
-Model Interpretability
-SHAP Values: Use SHAP (SHapley Additive exPlanations) values to provide more detailed and interpretable insights into feature importance and model decisions.
+3. Model Evaluation and Validation: ROC and AUC: Use ROC (Receiver Operating Characteristic) curves and AUC (Area Under the Curve) scores to evaluate and compare model performance more comprehensively.
 
-LIME (Local Interpretable Model-agnostic Explanations): Apply LIME to explain individual predictions and understand model behavior on a local level.
-
-Data Enrichment
-Additional Features: If possible, enrich your dataset with additional relevant features that could improve predictive performance (e.g., genetic information, more detailed lifestyle data).
-
-Feature Engineering: Experiment with creating new features from existing ones, such as interaction terms, polynomial features, or domain-specific features.
-
-Model Evaluation and Validation
-ROC and AUC: Use ROC (Receiver Operating Characteristic) curves and AUC (Area Under the Curve) scores to evaluate and compare model performance more comprehensively.
-
-Calibration: Assess model calibration to ensure that predicted probabilities are accurate. Calibration plots and metrics like the Brier score can be useful.
-
-External Validation: Test your models on an independent dataset to evaluate their generalizability and robustness.
-
-Deployment and Real-World Application
-Model Deployment: Develop a pipeline to deploy your best-performing model as an API or web service, making it accessible for real-world applications.
-
-User Interface: Create a user-friendly interface (e.g., a web app) that allows healthcare professionals or patients to input data and receive predictions and insights.
-
-Collaboration and Feedback
-Stakeholder Engagement: Present your findings to healthcare professionals, stakeholders, or domain experts to gather feedback and validate the practical applicability of your model.
-
-Peer Review: Share your work with peers or in online data science communities to get constructive feedback and suggestions for improvement.
-
-Documentation and Reporting
-Comprehensive Documentation: Document your entire workflow, from data preprocessing to model evaluation, to ensure reproducibility and clarity.
-
-Final Report: Compile a final report or presentation summarizing your methods, results, and insights. Highlight key findings, feature importances, and recommendations for future work.
-
-Ethical Considerations
-Bias and Fairness: Evaluate your models for potential biases and ensure fairness across different demographic groups. Consider techniques to mitigate any identified biases.
-
-Data Privacy: Ensure that your data handling practices comply with relevant privacy regulations and ethical standards, particularly when dealing with sensitive health data.
+4. Ethical Considerations: Bias and Fairness: Evaluate your models for potential biases and ensure fairness across different demographic groups. Consider techniques to mitigate any identified biases.
 
 #### Outline of project
 
 [Full Jupyter Notebook located here.](https://github.com/anjana250/capstone/blob/main/Diabetes_Capstone.ipynb)
 
 ##### Contact and Further Information
+
+[You can reach me on LinkedIn!](https://www.linkedin.com/in/anjana-cox-593b407a/)
