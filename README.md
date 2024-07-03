@@ -60,7 +60,8 @@ Feature Importance Plots: Visualizing the importance of different features as de
 
 #### Results
 
-**Insert the graph with all the metrics**
+![comparison_metrics](https://github.com/anjana250/capstone/assets/15185723/08a97141-f585-4bf5-8113-607f2f6e8775)
+
 
 Random Forest did the best on all the metrics except for Recall. KNN did the best for recall. Since Random Forest seems to have performed the best overall, the recommendations will be made using this model.
 
