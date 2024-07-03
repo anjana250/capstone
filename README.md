@@ -38,23 +38,24 @@ Data Cleaning: The dataset did not have any missing values but did contain some 
 Feature Selection: All of the features in the dataset were included in the analysis. Preprossing was done for all of the columns except the binary. 
 
 3. Machine Learning Models
-A baseline accuracy was obtained and the following models were then implemented.
- 1. Logistic Regression: A linear model for binary classification
- 2. Support Vector Machine (SVM): A model that finds the optimal hyperplane for separating classes.
- 3. K-Nearest Neighbors (KNN): A non-parametric model that classifies based on the majority class of the nearest neighbors.
- 4. Random Forest: An ensemble model using multiple decision trees to improve classification performance.
- 5. Decision Tree: A tree-based model that splits data based on feature values to make predictions.
+A baseline accuracy was obtained and then Logistic Regression, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Random Forest and Decision Tree models were implemented.
 
 4. Model Evaluation and Hyperparameter Tuning
-Grid Search with Cross-Validation: Tuning hyperparameters for each model to optimize performance. Using 5-fold/ 3-fold cross-validation ensures that the model generalizes well to unseen data. 
-Evaluation Metrics: Using accuracy, precision, recall, and F1-score to assess and compare the performance of each model. While all of these metrics are very important, recall was priortitized because it is crucial to minimize false negatives since this can result in a patient not receiving necessary treatments.
+Grid Search with Cross-Validation: Tuning hyperparameters for each model to optimize performance. Using 5-fold/ 3-fold cross-validation ensures that the model generalizes well to unseen data.
 
-5. Feature Importance
+5. Evaluation Metrics
+Using accuracy, precision, recall, and F1-score to assess and compare the performance of each model. While all of these metrics are very important, recall was priortitized because it is crucial to minimize false negatives since this can result in a patient not receiving necessary treatments.
+
+6. Feature Importance
 Logistic Regression Coefficients: Analyzing the magnitude and direction of coefficients to determine feature importance.
+
 Random Forest Feature Importance: Using feature importance scores from the Random Forest model to identify significant predictors.
 Visualization and Reporting
+
 Confusion Matrix: Visualizing the performance of each model in terms of true positives, true negatives, false positives, and false negatives.
+
 Bar Plots: Comparing the performance metrics (accuracy, precision, recall, F1-score) of all models using bar plots.
+
 Feature Importance Plots: Visualizing the importance of different features as determined by the models.
 
 
@@ -64,7 +65,6 @@ Feature Importance Plots: Visualizing the importance of different features as de
 
 
 Random Forest did the best on all the metrics except for Recall. KNN did the best for recall. Since Random Forest seems to have performed the best overall, the recommendations will be made using this model.
-
 
 #### Observations from Feature Importance:
 1. Factors that increase likelihood of diabetes:
