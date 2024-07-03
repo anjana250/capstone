@@ -89,7 +89,6 @@ Individuals who already have other conditions such as High Blood Pressure, High 
 
 3. Model Evaluation and Validation: ROC and AUC: Use ROC (Receiver Operating Characteristic) curves and AUC (Area Under the Curve) scores to evaluate and compare model performance more comprehensively.
 
-4. Ethical Considerations: Bias and Fairness: Evaluate your models for potential biases and ensure fairness across different demographic groups. Consider techniques to mitigate any identified biases.
 
 #### Outline of project
 
